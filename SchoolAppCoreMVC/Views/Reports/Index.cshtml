@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Student Report";
+}
+
+<div class="container mt-4">
+    <h2>Student Report</h2>
+
+    <p>
+        Generate a PDF report containing all student records
+        from the SchoolDB database.
+    </p>
+
+    <a asp-controller="Reports"
+       asp-action="StudentsPdf"
+       class="btn btn-primary">
+        Generate Student Report
+    </a>
+</div>
